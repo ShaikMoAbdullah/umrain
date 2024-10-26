@@ -1,0 +1,77 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules
+bower_components
+vendor
+
+# Build directories
+dist
+dist-ssr
+build/
+out/
+target/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*~
+
+# IDEs and Editors
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.cproject
+.settings/
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Logs and Databases
+*.log
+*.sqlite
+*.sqlite3
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+
+# Testing
+coverage/
+
+# Miscellaneous
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+*.tgz

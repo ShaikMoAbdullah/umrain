@@ -1,0 +1,20 @@
+{
+  "name": "umrain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Shaik Mohammad Abdullah <smabdullahblr@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"yarn workspace server dev\" \"yarn workspace client dev\"",
+    "server": "cd server && yarn dev",
+    "client": "cd client && yarn dev"
+  },
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
